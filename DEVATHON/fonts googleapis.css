@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://oldweb.nitw.ac.in/media/IMG_4163_nFxGxlS.JPG');
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-head {
+    font-weight: bold;
+    font-family: "Playfair Display SC";
+    font-size: 45px;
+    padding-top: 35vh;
+}
+
+.home-head-md {
+    font-weight: bold;
+    font-family: "Playfair Display SC";
+    font-size: 35px;
+    padding-top: 20vh;
+}
+
+.para-font {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.home-para {
+    font-size: 18px;
+    color: #19202c;
+    font-weight: 500;
+}
+
+.home-main-btn {
+    height: 60px;
+    border-radius: 25px;
+    width: 275px;
+    background-color: #19202c;
+    border: none;
+    color: whitesmoke;
+    font-size: 19px;
+}
+
+.home-main-btn:hover {
+    background-color: whitesmoke;
+    transition: 500ms;
+    color: #19202c;
+}
+
+.home-box {
+    background-color: #19202C;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 25px;
+}
+
+.home-box-hover:hover {
+    background-color: rgb(35, 55, 77);
+    transition: 500ms;
+    color: white;
+}
+
+.home-icons {
+    color: white;
+    font-size: 30px;
+}
+
+.toggler-css {
+    background-color: #1089FF;
+}
+
+.nav-icon {
+    width: 45px;
+    height: 50px;
+}
+
+.nav-text-css {
+    color: black !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-css {
+    background-color: whitesmoke;
+}
+
+#navigationbar {
+    background-color: whitesmoke;
+}
+
+@media screen and (min-width:991px) {
+    #navigationbar a::after {
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: #1089FF;
+        border-radius: 3px;
+        display: block;
+        margin: auto;
+        transition: 0.7s;
+    }
+
+    #navigationbar a:hover::after {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #navigationbar a::after {
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: #1089FF;
+        border-radius: 3px;
+        display: block;
+        margin: auto;
+        transition: 0.87s;
+    }
+
+    #navigationbar a:hover::after {
+        width: auto;
+    }
+}
+
+.scrollToTopBtn {
+    border-radius: 30px;
+    background-color: #61b0b7;
+    color: whitesmoke;
+    border-width: 0px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.scrollToTopBtn:hover {
+    background-color: #1089FF;
+    color: whitesmoke;
+    transition: 500ms;
+}
+
+.about-bg {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('https://media.istockphoto.com/photos/online-education-course-elearning-class-and-ebook-digital-technology-picture-id1225470365?k=20&m=1225470365&s=612x612&w=0&h=B-dLbH8aSEYAZRJ4gDvYhxGjQO2wt92bUVvE2Y_sHIg=');
+    background-size: cover;
+}
+
+.about-head {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    font-weight: bold;
+    font-family: "Playfair Display SC";
+    font-size: 45px;
+}
+
+.about-btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    border-width: 0px;
+    background-color: #23CDD0;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.hr-line {
+    background-color: blue;
+    width: 35%;
+    height: 2px;
+}
+
+.about-contacts-box {
+    background-color: #19202c;
+    width: 100%;
+}
+
+.modal-btn {
+    border-width: 0px;
+}
+
+.modal-head {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.team-box {
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.team-memb-img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.contact-bg {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url('https://media.istockphoto.com/photos/online-education-course-elearning-class-and-ebook-digital-technology-picture-id1225470365?k=20&m=1225470365&s=612x612&w=0&h=B-dLbH8aSEYAZRJ4gDvYhxGjQO2wt92bUVvE2Y_sHIg=');
+    background-size: cover;
+}
+
+.about-col {
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form .input2,
+.form textarea {
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-right: 5px;
+    color: black;
+    resize: none;
+}
+
+.input2:hover {
+    border: 0.8px solid black;
+}
+
+textarea:hover {
+    border: 0.8px solid black;
+}
+
+.submitbutton:hover {
+    background-color: #626262;
+    transition: 0.5s;
+}
+
+.submitbutton {
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: bold;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+}
+
+
+.contact-box {
+    border-radius: 15px;
+}
+
+p {
+    line-height: 2;
+}
+
+.login-bg {
+    background-color: #bebebe;
+    height: 100vh;
+}
+
+.login-box {
+    border-radius: 10px;
+    background-color: white;
+    height: 100%;
+}
+
+.loginpage-img {
+    width: 50%;
+    background-image: url('https://i.im.ge/2022/08/20/OIxvLX.ZZZZZ2344-2.jpg');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+input {
+    width: 100%;
+}
