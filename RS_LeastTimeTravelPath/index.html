@@ -1,0 +1,59 @@
+<!-- RAMAVATH SANTHOSH -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RS_LeastTimeTravelPath</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5548f5ed00.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light" style="font-size: 25px; font-family: sans-serif; background-color: rgb(55, 57, 81); color:white;">
+      LEAST TIME TRAVEL PATH - Ramavath Santhosh
+    </nav>
+    <div id="container">
+      <div id="mynetwork"></div>
+      <div id="container2">
+        <div
+          id="temptext2"
+          style="width: 100%; text-align: center; font-size: x-large"
+        >
+        </div>
+        <div
+          id="temptext"
+          style="width: 100%; text-align: center; font-size: x-large; border: 2px solid #8a2be2; background-color: #f9f9f9; padding: 20px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
+        >
+          <div style="margin-bottom: 10px;">*Orange link represents bus travel time: <i class="fa fa-bus" aria-hidden="true" style="color: rgb(255, 196, 0);"></i></div>
+          <div style="margin-bottom: 10px;">*Green link represents flight travel time: <i class="fa fa-plane" aria-hidden="true" style="color: green;"></i></div>
+          <div>Click on solve to get Solution !!</div>
+        </div>
+        <div id="mynetwork2" style="display: none;"></div>
+      </div>
+    </div>
+
+    <div>
+      <br />
+      <button type="button" class="btn btn-danger" id="generate-graph">
+        Get New Problem
+      </button>
+      <br />
+      <button type="button" class="btn btn-success" id="solve">Solve</button>
+    </div>
+  </body>
+</html>
