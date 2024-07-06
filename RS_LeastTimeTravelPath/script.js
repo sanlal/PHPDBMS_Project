@@ -32,7 +32,7 @@ onload = function () {
                 face: 'FontAwesome',
                 code: '\uf64f',
                 // code: '\uf1ad',
-                size: 80,
+                size: 50,
                 color: '#8A2BE2',
             }
         }
