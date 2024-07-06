@@ -30,7 +30,7 @@ onload = function () {
             shape: 'icon',
             icon: {
                 face: 'FontAwesome',
-                code: '\uf0c0',
+                code: '\uf1ad',
                 // code: '\uf1ad',
                 size: 80,
                 color: '#8A2BE2',
